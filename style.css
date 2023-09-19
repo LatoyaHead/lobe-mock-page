@@ -78,9 +78,39 @@ nav {
   body {
     overflow-x: hidden;
   }
-  .container {
-    /* margin: 10px 20px; */
-   } 
+  .dropbtn {
+    background-color: #04ddb2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    /* position: relative; */
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content, .dropMenu {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+
+  .titles, .button {
+    display: none;   
+  } 
 
   .first-section{
     padding: 15px;
