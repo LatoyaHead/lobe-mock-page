@@ -74,6 +74,10 @@ nav {
   display: flex;
 }
 
+.dropdown {
+  display: none;
+}
+
 @media only screen and (min-width: 550px) and (max-width: 2000px){
   .dropbtn, .dropdown-content {
     display: none;
