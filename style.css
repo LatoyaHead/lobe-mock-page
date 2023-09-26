@@ -74,6 +74,15 @@ nav {
   display: flex;
 }
 
+@media only screen and (min-width: 550px) and (max-width: 2000px){
+  .dropbtn, .dropdown-content {
+    display: none;
+  }
+}
+
+
+
+
 @media only screen and (min-width: 280px) and (max-width: 550px) {
   body {
     overflow-x: hidden;
@@ -87,7 +96,6 @@ nav {
   }
   
   .dropdown {
-    /* position: relative; */
     display: inline-block;
   }
   
@@ -97,9 +105,10 @@ nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    text-align: center;
   }
   
-  .dropdown-content, .dropMenu {
+   .dropMenu {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
