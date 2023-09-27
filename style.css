@@ -91,6 +91,11 @@ nav {
   gap: 30px;
  }
 
+ .dropdown-content {
+  display: none;
+}
+
+
 @media (max-width: 600px) {
   body {
     overflow-x: hidden;
