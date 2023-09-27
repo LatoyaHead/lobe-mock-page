@@ -91,19 +91,15 @@ nav {
   gap: 30px;
  }
 
-@media only screen and (min-width: 600px) and (max-width: 2000px){
-  .dropbtn, .dropdown-content {
-    display: none;
-  }
-}
-
-
-
-
-@media only screen and (min-width: 280px) and (max-width: 600px) {
+@media (max-width: 600px) {
   body {
     overflow-x: hidden;
   }
+
+  .dropdown-content {
+    display: none;
+  }
+
   .dropbtn {
     background-color: #04ddb2;
     color: white;
