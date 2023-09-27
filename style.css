@@ -78,6 +78,12 @@ nav {
   display: none;
 }
 
+.center {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+ }
+
 @media only screen and (min-width: 550px) and (max-width: 2000px){
   .dropbtn, .dropdown-content {
     display: none;
@@ -165,7 +171,13 @@ nav {
 
   .first-row, .second-row, .third-row, .fourth-row {
     gap: 8px;
+    width: 35%;
    }    
 
- 
+ .center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+ }
 }
